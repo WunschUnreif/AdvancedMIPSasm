@@ -1,0 +1,29 @@
+add     rd  rs  rt
+sub     rd  rs  rt
+and     rd  rs  rt 
+or      rd  rs  rt
+not     rd  rs 
+xor     rd  rs  rt 
+sllv    rd  rs  rt 
+slrv    rd  rs  rt 
+slt     rd  rs  rt 
+
+addi    rt  rs  i16
+andi    rt  rs  i16
+ori     rt  rs  i16
+noti    rt  rs  i16 
+xori    rt  rs  i16 
+
+sll     rd  rt  sha 
+slr     rd  rt  sha
+
+lw      rt  rs  i16 
+sw      rt  rs  i16 
+
+j       i26
+jal     i26 
+beq     rs rt   i16 
+jr      rs 
+
+push    rt 
+pop     rd 
